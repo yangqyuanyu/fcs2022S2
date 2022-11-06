@@ -1,0 +1,4 @@
+1, the printStudent() is of no use! As the output doesn't follow the required format actually, I create a new method called printStu()
+2,For Queue, we must follow FIFO.Thus, I use stack to reverse the output.
+3,Normally, the return data type of dequeque() is void or Node,but in this case it's Student.So, I use getInfo() to meet the requirement.
+4,For peek(), it's rather dangerous to do this: getInfo().getName(),If getInfo() is null, getName() won't be invoked
