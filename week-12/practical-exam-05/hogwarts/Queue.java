@@ -9,14 +9,13 @@ Practical Exam Number:5
 import java.util.Stack;
 public class Queue{
     public Node front, back;
-
     public void enqueue(Student tmpStudent){
         Node node = new Node(tmpStudent);
         if(this.back==null){
             this.back=node;
         }else{
-        	node.setNext(this.back);
-		    this.back = node;
+            node.setNext(this.back);
+	    this.back = node;
         }
     }
 
@@ -38,12 +37,11 @@ public class Queue{
 
 
         Node tmp=this.front.getNext();
-
-		this.front.setNext(null);
-		if(tmp==null){
-		    this.front=null;
-		    this.back=null;
-		    return null;
+	this.front.setNext(null);
+	if(tmp==null){
+	    this.front=null;
+	    this.back=null;
+	    return null;
         }else{
             return tmp.getInfo();
         }
@@ -66,8 +64,7 @@ public class Queue{
         return temp.getName();
     }
     //Method displayQueue
-	public void displayQueue(){
-
+    public void displayQueue(){
         Node node=this.back;
         if(node==null){
             System.out.println("There are no students waiting for a scholarship ");
@@ -85,8 +82,5 @@ public class Queue{
             count++;
             stackStudent.printStu(count);
         }
-	}
-
-
-
+    }
 }
