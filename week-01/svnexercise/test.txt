@@ -1,0 +1,5 @@
+svn mkdir -m "create svnexercise directory" --parents https://version-control.adelaide.edu.au/svn/a1874869/2022/s2/fcs/week-01/svnexercise
+
+Hello world
+
+
