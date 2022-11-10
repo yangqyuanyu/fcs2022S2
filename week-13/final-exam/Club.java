@@ -96,7 +96,6 @@ class Club{
         }
 
         for(int i=0;i<members.size();i++){
-
             if(members.get(i).getRanking()>highest.getRanking()&&members.get(i).getAge()<21){
                 highest=members.get(i);
             }else if(members.get(i).getRanking()==highest.getRanking()&&members.get(i).getAge()<21){
