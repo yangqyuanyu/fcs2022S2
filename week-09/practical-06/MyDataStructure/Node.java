@@ -5,39 +5,39 @@ public class Node{
 
 
 
-	// Basic constructor
-	public Node(){
-		// this.data=data;
-		// this.next=null;
-	}
+    // Basic constructor
+    public Node(){
+	// this.data=data;
+	// this.next=null;
+    }
 
 
-	// Parameterized constructor
-	public Node(String data) {
-		this.data = data;
-		this.next = null;
-	}
+    // Parameterized constructor
+    public Node(String data) {
+	this.data = data;
+	this.next = null;
+    }
 
-	public void setData(String data){       //setter
-	    this.data=data;
-	}
-	public String getData(){                //getter
-	    return data;
-	}
+    public void setData(String data){       //setter
+        this.data=data;
+    }
+    public String getData(){                //getter
+        return data;
+    }
 
 
-	public void setNext(Node newNode){
-	    this.next = newNode;
-	}
+    public void setNext(Node newNode){
+        this.next = newNode;
+    }
 
-	public Node getNext(){
-		return this.next;
-	}
+    public Node getNext(){
+        return this.next;
+    }
 
-	public void printNode(){
-		System.out.println(getData());
-		// System.out.println(getNext());
-	}
+    public void printNode(){
+	System.out.println(getData());
+	// System.out.println(getNext());
+    }
 
     // public static void main(String[] args){
 
