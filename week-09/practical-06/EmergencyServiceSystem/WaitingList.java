@@ -88,16 +88,15 @@ public class WaitingList{
 
     //Check whether the patient is in this list or not
     public boolean isInList(Patient patient){
-        if (this.head == null) {
+        if (this.head==null){
             return false;
         }
-        Node temp = this.head;
-        while(temp!=null) {
-            if(temp.getPatient().getName().equals(patient.getName())
-                    && temp.getPatient().getPhoneNumber().equals(patient.getPhoneNumber())){
+        Node temp=this.head;
+        while(temp!=null){
+            if(temp.getPatient().getName().equals(patient.getName())&&temp.getPatient().getPhoneNumber().equals(patient.getPhoneNumber())){
                 return true;
             }
-            temp = temp.getNext();
+            temp=temp.getNext();
         }
         return false;
     }
