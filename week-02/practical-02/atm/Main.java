@@ -38,10 +38,11 @@ o:      for(int numx=0;numx<0.05*numz;numx++){
 
 
     public static void main(String []args){
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Input here:");
-        double z=sc.nextDouble();
-        System.out.println(run(z));
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Input here:");
+            double z=sc.nextDouble();
+            System.out.println(run(z));
+        }
     }
 }
 

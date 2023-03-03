@@ -1,4 +1,4 @@
-public class Main{
+public class Problem10{
     public static void main(String [] args){
         String agent_message_01282 = "Who are you?";
         System.out.println(agent_message_01282);
