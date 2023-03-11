@@ -55,6 +55,9 @@ class Student{
     }
 
     //method printStu
+    /**
+     * @param c
+     */
     public void printStu(int c){
         switch(getPeriod()){
             case 1:
